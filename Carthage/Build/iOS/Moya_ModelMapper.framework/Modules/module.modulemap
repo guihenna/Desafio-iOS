@@ -1,0 +1,11 @@
+framework module Moya_ModelMapper {
+  umbrella header "Moya-ModelMapper-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module Moya_ModelMapper.Swift {
+    header "Moya_ModelMapper-Swift.h"
+    requires objc
+}

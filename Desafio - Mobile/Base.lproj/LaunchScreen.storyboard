@@ -1,7 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -13,7 +17,48 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Tk-cR-KJn">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="default" translatesAutoresizingMaskIntoConstraints="NO" id="fS6-2x-jup">
+                                        <rect key="frame" x="123.5" y="259.5" width="128" height="128"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="128" id="ZKc-GM-csN"/>
+                                            <constraint firstAttribute="width" constant="128" id="eCK-Fy-CPn"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tokenlab" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZlH-Xs-h1v">
+                                        <rect key="frame" x="134" y="392.5" width="107.5" height="30"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="25"/>
+                                        <color key="textColor" red="0.0" green="0.5" blue="0.99981011279999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Desafio Mobile" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J7K-Yq-4db">
+                                        <rect key="frame" x="80.5" y="117.5" width="214" height="42"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBlack" family="Helvetica Neue" pointSize="35"/>
+                                        <color key="textColor" red="0.29411764709999999" green="0.47058823529999999" blue="0.7843137255" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="ZlH-Xs-h1v" firstAttribute="top" secondItem="fS6-2x-jup" secondAttribute="bottom" constant="5" id="4eS-8g-2DD"/>
+                                    <constraint firstItem="fS6-2x-jup" firstAttribute="centerX" secondItem="3Tk-cR-KJn" secondAttribute="centerX" id="66u-lj-09W"/>
+                                    <constraint firstItem="ZlH-Xs-h1v" firstAttribute="centerX" secondItem="3Tk-cR-KJn" secondAttribute="centerX" id="Vdo-vC-VFy"/>
+                                    <constraint firstItem="fS6-2x-jup" firstAttribute="centerY" secondItem="3Tk-cR-KJn" secondAttribute="centerY" id="deJ-mp-peh"/>
+                                    <constraint firstItem="J7K-Yq-4db" firstAttribute="centerX" secondItem="3Tk-cR-KJn" secondAttribute="centerX" id="pZX-ln-5Dr"/>
+                                    <constraint firstItem="fS6-2x-jup" firstAttribute="top" secondItem="J7K-Yq-4db" secondAttribute="bottom" constant="100" id="rHP-58-NbA"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="3Tk-cR-KJn" secondAttribute="bottom" id="R5t-ha-5HF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3Tk-cR-KJn" secondAttribute="trailing" id="X0u-li-4Po"/>
+                            <constraint firstItem="3Tk-cR-KJn" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="bpX-2o-jdD"/>
+                            <constraint firstItem="3Tk-cR-KJn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="nhi-JE-Gie"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
@@ -22,4 +67,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="default" width="180" height="180"/>
+    </resources>
 </document>

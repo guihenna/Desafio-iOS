@@ -1,0 +1,17 @@
+{
+  "commitish" : "7.1.0",
+  "iOS" : [
+    {
+      "name" : "Moya_ModelMapper",
+      "hash" : "1f90f1af8a86979f4509fffe56d154654a4db7b5c8ccfeb9e7c46a4aa6f47adb"
+    },
+    {
+      "name" : "ReactiveMoya_ModelMapper",
+      "hash" : "a26692a4d4af783a1f4e4c5ab88ee0751775dc6692b4cca90f849e13d329f402"
+    },
+    {
+      "name" : "RxMoya_ModelMapper",
+      "hash" : "71c1b370b08272fa4cfef1cc9f60ec17aca2320959d8f8e90ddca548d67d84d5"
+    }
+  ]
+}
