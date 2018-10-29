@@ -60,7 +60,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         let detalhes = self.storyboard?.instantiateViewController(withIdentifier: "DetalhesVC") as! DetalhesVC
         detalhes.movieId = movies[indexPath.row].id
-        //let navigationController = UINavigationController(rootViewController: detalhes)
         show(detalhes, sender: self)
     }
     

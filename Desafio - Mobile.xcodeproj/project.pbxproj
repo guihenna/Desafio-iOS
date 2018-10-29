@@ -109,6 +109,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		353FD150218748B600F66D03 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				35978ED4217FA7E400FE4D42 /* ServerAPI.swift */,
+				35978ED6217FAFAC00FE4D42 /* NetworkAdapter.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		35D7143E217F5EDF00071C67 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -151,6 +160,7 @@
 		35E58A2B217F52D200872DE4 /* Desafio - Mobile */ = {
 			isa = PBXGroup;
 			children = (
+				353FD150218748B600F66D03 /* Service */,
 				35E58A41217F535B00872DE4 /* Controller */,
 				35E58A40217F534F00872DE4 /* View */,
 				35E58A3F217F534500872DE4 /* Model */,
@@ -167,7 +177,6 @@
 			isa = PBXGroup;
 			children = (
 				35D71442217F65B500071C67 /* Movie.swift */,
-				35978ED4217FA7E400FE4D42 /* ServerAPI.swift */,
 				353B888821833E7600EE8B51 /* MovieDetails.swift */,
 			);
 			path = Model;
@@ -177,7 +186,6 @@
 			isa = PBXGroup;
 			children = (
 				35D71440217F643100071C67 /* MovieCell.swift */,
-				35978ED6217FAFAC00FE4D42 /* NetworkAdapter.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
