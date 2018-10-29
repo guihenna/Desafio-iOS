@@ -112,10 +112,19 @@
 		353FD150218748B600F66D03 /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				35978ED4217FA7E400FE4D42 /* ServerAPI.swift */,
+				3503923E2181DFA600C2024C /* InternetCheck.swift */,
 				35978ED6217FAFAC00FE4D42 /* NetworkAdapter.swift */,
+				35978ED4217FA7E400FE4D42 /* ServerAPI.swift */,
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		353FD15121874FA900F66D03 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				350A68F32180CDF500BD1FA0 /* Loading.swift */,
+			);
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 		35D7143E217F5EDF00071C67 /* Frameworks */ = {
@@ -160,8 +169,8 @@
 		35E58A2B217F52D200872DE4 /* Desafio - Mobile */ = {
 			isa = PBXGroup;
 			children = (
+				353FD15121874FA900F66D03 /* Presenter */,
 				353FD150218748B600F66D03 /* Service */,
-				35E58A41217F535B00872DE4 /* Controller */,
 				35E58A40217F534F00872DE4 /* View */,
 				35E58A3F217F534500872DE4 /* Model */,
 				35E58A2C217F52D200872DE4 /* AppDelegate.swift */,
@@ -185,20 +194,11 @@
 		35E58A40217F534F00872DE4 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				350A68F52180D7F500BD1FA0 /* DetalhesVC.swift */,
+				35E58A2E217F52D200872DE4 /* ViewController.swift */,
 				35D71440217F643100071C67 /* MovieCell.swift */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		35E58A41217F535B00872DE4 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				35E58A2E217F52D200872DE4 /* ViewController.swift */,
-				350A68F32180CDF500BD1FA0 /* Loading.swift */,
-				350A68F52180D7F500BD1FA0 /* DetalhesVC.swift */,
-				3503923E2181DFA600C2024C /* InternetCheck.swift */,
-			);
-			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
